@@ -10,6 +10,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  overflow-x: hidden !important;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -194,9 +197,11 @@ img.mfp-img {
 @media (max-width: 990px) {
   section {
     padding: 0px;
+    overflow-x: hidden !important;
   }
   .main_header {
     padding: 80px 0 0 10px;
+    overflow-x: hidden !important;
   }
   .nav {
     padding: 0 40px 0 20px;
